@@ -605,12 +605,9 @@ img {
 	margin-bottom: 9px;
 }
 
-.footer-content__newsletter-block {
-	margin-left: auto;
-}
-
 .footer-content__newsletter-form {
 	max-width: 570px;
+	margin-left: auto;
 }
 
 .newsletter-form__group {
@@ -634,6 +631,7 @@ img {
 	transition: border-color var(--animation-type1);
 }
 
+.newsletter-form__input-field,
 .newsletter-form__input-field::placeholder {
 	font-size: 16px;
 	line-height: 1.25;
@@ -796,11 +794,11 @@ img {
 
 .order-form__textarea-field {
 	display: block;
+	padding: 12px 16px;
 	width: 100%;
 	height: 120px;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
-	padding: 12px 16px;
 	resize: none;
 	transition: border-color var(--animation-type1);
 }
