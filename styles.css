@@ -224,7 +224,7 @@ img {
 	margin: 0 0 30px 0;
 }
 
-.hero__button,
+.hero__btn,
 .order-form__btn-submit,
 .newsletter-form__btn-submit {
 	width: 200px;
@@ -242,8 +242,8 @@ img {
 	transition: background-color var(--animation-type1);
 }
 
-.hero__button:hover,
-.hero__button:focus,
+.hero__btn:hover,
+.hero__btn:focus,
 .order-form__btn-submit:hover,
 .order-form__btn-submit:focus,
 .newsletter-form__btn-submit:hover,
