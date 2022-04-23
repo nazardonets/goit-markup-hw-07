@@ -743,7 +743,7 @@ img {
 }
 
 .order-form__input-label,
-.order-form__input-label--textarea {
+.order-form__textarea-label {
 	font-weight: 400;
 	font-size: 12px;
 	line-height: 1.16;
@@ -767,7 +767,7 @@ img {
 
 .order-form__input-field:focus-within ~ .order-form__input-icon,
 .order-form__input-field:focus-within ~ .order-form__input-label,
-.order-form__textarea-field:focus-within ~ .order-form__input-label--textarea {
+.order-form__textarea-field:focus-within ~ .order-form__textarea-label {
 	color: var(--color-brand);
 }
 
@@ -811,12 +811,12 @@ img {
 	color: rgba(117, 117, 117, 0.5);
 }
 
-.order-form__fieldset--textarea {
+.order-form__fieldset-textarea {
 	position: relative;
 	margin-bottom: 20px;
 }
 
-.order-form__input-label--textarea {
+.order-form__textarea-label {
 	position: absolute;
 	top: -18px;
 	left: 0;
@@ -827,7 +827,7 @@ img {
 	left: 42px;
 }
 
-.order-form__fieldset--checkbox {
+.order-form__fieldset-checkbox {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -878,6 +878,4 @@ img {
 .order-form__consent-link {
 	color: var(--color-brand);
 	text-decoration: underline;
-	width: 100%;
-	text-align: center;
 }
