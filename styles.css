@@ -142,11 +142,11 @@ img {
 	transition: color var(--animation-type1);
 }
 
-.header-nav__link.--active {
+.header-nav__link--active {
 	color: var(--color-brand);
 }
 
-.--active::after {
+.header-nav__link--active::after {
 	content: '';
 	display: block;
 	position: absolute;
@@ -665,7 +665,7 @@ img {
 	transition: opacity var(--animation-type1);
 }
 
-.--backdrop-hidden {
+.backdrop-area--hidden {
 	opacity: 0;
 	pointer-events: none;
 }
@@ -679,7 +679,7 @@ img {
 	border-radius: 4px;
 }
 
-.backdrop-area.--backdrop-hidden > .order-popup {
+.backdrop-area.backdrop-area--hidden > .order-popup {
 	transform: scale(0.5);
 	transition: transform var(--animation-type1);
 }

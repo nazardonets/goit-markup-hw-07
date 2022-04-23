@@ -34,7 +34,9 @@
 							<a href="./index.html" class="header-nav__link">Студия</a>
 						</li>
 						<li class="header-nav__item">
-							<a href="./portfolio.html" class="header-nav__link --active"
+							<a
+								href="./portfolio.html"
+								class="header-nav__link header-nav__link--active"
 								>Портфолио</a
 							>
 						</li>
@@ -359,41 +361,39 @@
 							</li>
 						</ul>
 					</div>
-					<div class="footer-content__newsletter-block">
-						<form class="footer-content__newsletter-form">
-							<div
-								class="newsletter-form__group"
-								role="group"
-								aria-labelledby="newsletter-form-label"
+					<form class="footer-content__newsletter-form">
+						<div
+							class="newsletter-form__group"
+							role="group"
+							aria-labelledby="newsletter-form-label"
+						>
+							<label
+								class="newsletter-form__label"
+								for="newsletter-email"
+								id="newsletter-form-label"
 							>
-								<label
-									class="newsletter-form__label"
-									for="newsletter-email"
-									id="newsletter-form-label"
+								Подпишитесь на рассылку
+							</label>
+							<input
+								class="newsletter-form__input-field"
+								type="email"
+								name="newsletter-email"
+								id="newsletter-email"
+								placeholder="E-mail"
+								required
+							/>
+							<button class="newsletter-form__btn-submit" type="button">
+								Подписаться
+								<svg
+									class="newsletter-form__icon-submit"
+									width="24"
+									height="24"
 								>
-									Подпишитесь на рассылку
-								</label>
-								<input
-									class="newsletter-form__input-field"
-									type="email"
-									name="newsletter-email"
-									id="newsletter-email"
-									placeholder="E-mail"
-									required
-								/>
-								<button class="newsletter-form__btn-submit" type="button">
-									Подписаться
-									<svg
-										class="newsletter-form__icon-submit"
-										width="24"
-										height="24"
-									>
-										<use href="./icons/icons.svg#icon-newsletter"></use>
-									</svg>
-								</button>
-							</div>
-						</form>
-					</div>
+									<use href="./icons/icons.svg#icon-newsletter"></use>
+								</svg>
+							</button>
+						</div>
+					</form>
 				</div>
 			</div>
 		</footer>
