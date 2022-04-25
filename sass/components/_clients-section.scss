@@ -1,0 +1,29 @@
+.our-clients__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.our-clients__link {
+	display: flex;
+	width: 170px;
+	height: 92px;
+	justify-content: center;
+	align-items: center;
+	color: $color-icon-team-inactive;
+	border: 1px solid $color-icon-team-inactive;
+	border-radius: 4px;
+	transition: color $animation-type1, border $animation-type1;
+
+	&:hover,
+	&:focus,
+	&:hover .our-clients__icon,
+	&:focus .our-clients__icon {
+		color: $color-brand;
+		border-color: $color-brand;
+	}
+}
+
+.our-clients__icon {
+	color: $color-icon-team-inactive;
+	transition: color $animation-type1;
+}

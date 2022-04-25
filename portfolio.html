@@ -20,7 +20,7 @@
 			rel="stylesheet"
 		/>
 
-		<link rel="stylesheet" href="./styles.css" />
+		<link rel="stylesheet" href="./src/css/main.min.css" />
 	</head>
 	<body>
 		<header class="header">
@@ -68,7 +68,7 @@
 		<main>
 			<section class="section">
 				<div class="container">
-					<h1 class="--hidden">Портфолио</h1>
+					<h1 class="section__title--hidden">Портфолио</h1>
 					<ul class="portfolio-filters__list">
 						<li class="portfolio-filters__item">
 							<button class="portfolio-filters__button" type="button">
@@ -382,7 +382,10 @@
 								placeholder="E-mail"
 								required
 							/>
-							<button class="newsletter-form__btn-submit" type="button">
+							<button
+								class="btn-main-cta btn-main-cta--with-icon"
+								type="submit"
+							>
 								Подписаться
 								<svg
 									class="newsletter-form__icon-submit"
